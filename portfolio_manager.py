@@ -203,8 +203,8 @@ class PortfolioManager:
                     "ticker": item.get("name", "UNKNOWN").upper(),
                     "name": item.get("name", "Unknown"),
                     "asset_class": item.get("asset_class", "Other"),
-                    "sector": "Manual",
-                    "country": "Manual",
+                    "sector": None,
+                    "country": None,
                     "weight": allocation_weight
                 }])
                 data_frames.append(df)
