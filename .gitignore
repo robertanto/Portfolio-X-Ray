@@ -31,9 +31,3 @@ data/
 .idea/
 .DS_Store
 Thumbs.db
-
---- Local Config (Optional) ---
-
-Uncomment the line below if you don't want to share your portfolio composition
-
-portfolio.yaml

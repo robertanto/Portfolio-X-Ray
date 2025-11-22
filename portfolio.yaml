@@ -1,0 +1,13 @@
+- url: "https://www.blackrock.com/it/investitori-privati/products/251882/ishares-core-sp-500-ucits-etf"
+  weight: 0.60
+
+- url: "https://www.blackrock.com/it/investitori-privati/products/291770/ishares-core-global-aggregate-bond-ucits-etf"
+  weight: 0.30
+
+- name: "Gold"
+  asset_class: "Commodity"
+  weight: 0.05
+
+- name: "Bitcoin"
+  asset_class: "Crypto"
+  weight: 0.05
