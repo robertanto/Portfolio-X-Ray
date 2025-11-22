@@ -1,0 +1,39 @@
+--- Python ---
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+--- Project Data (Don't commit large datasets) ---
+
+data/
+*.csv
+
+--- Generated Reports ---
+
+*.xlsx
+
+--- Streamlit ---
+
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+--- IDE & OS ---
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+--- Local Config (Optional) ---
+
+Uncomment the line below if you don't want to share your portfolio composition
+
+portfolio.yaml
